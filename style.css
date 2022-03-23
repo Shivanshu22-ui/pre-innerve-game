@@ -1,0 +1,66 @@
+.text1{
+    font-size:48px;
+    -webkit-text-fill-color: transparent !important;
+    background: linear-gradient(
+      98.15deg,
+      #b658e3 12%,
+      #ff8e8e 40.42%,
+      hsla(0, 0%, 100%, 0) 104.38%
+    );
+    -webkit-background-clip: text !important;
+}
+
+.main-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.floating{
+    padding: 32px;
+    width: 50%;
+}
+
+.float img {
+    text-shadow: 0px 0px #819da6, 1px 1px #819da6, 2px 2px #819da6, 3px 3px #819da6, 4px 4px #819da6, 5px 5px #819da6, 6px 6px #819da6, 7px 7px #819da6, 8px 8px #819da6, 9px 9px #819da6, 10px 10px #819da6, 11px 11px #819da6, 12px 12px #819da6, 13px 13px #819da6, 14px 14px #819da6, 15px 15px #819da6, 16px 16px #819da6, 17px 17px #819da6, 18px 18px #819da6, 19px 19px #819da6, 20px 20px #819da6, 21px 21px #819da6, 22px 22px #819da6, 23px 23px #819da6, 24px 24px #819da6, 25px 25px #819da6, 26px 26px #819da6, 27px 27px #819da6, 28px 28px #819da6;
+}
+.logo{
+    height: 120px;
+}
+.light{
+    height: 120px;
+}
+
+.float {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    -webkit-animation-name: float;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out ease-in-out;
+}
+
+@-webkit-keyframes float {
+    from {
+        -webkit-transform: translate(0, 0px);
+    }
+    45% {
+        -webkit-transform: translate(0, 20px);
+    }
+    to {
+        -webkit-transform: translate(0, -0px);
+    }
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.text2{
+    font-size: 8px;
+    color:red;
+    position: fixed;
+    bottom: 0;
+    right:0;
+    cursor: pointer;
+}
